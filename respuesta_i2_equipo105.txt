@@ -13,3 +13,12 @@ el fork?
 No, los datos que tenia en mi repositorio no se pierden al actualizar el fork 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+1- Mia Aguirre empieza creando el repositorio, le crea un archivo llamado fork.txt y lo guarda. 
+
+2- Ignacio Poltarak hace fork del repositorio de Mia, despues clona el fork que realizó con git clone y le edita el archivo fork.txt agregando sus datos (Ignacio Martinez 192.168.0.1 11:42), usa los comandos "git add .", "git commit -m "Agregué mis datos al fork.txt" y finaliza con un git push para actualizar el fork. 
+
+3- Matias Fleita hace un fork del repositorio de Mia y lo clona con git clone, para editarle el fork.txt con sus datos "Matias Fleita 192.168.0.1 11:39". Despues usa "git add .", "git commit -m "Agregar nombre y apellido de alfa" y lo finaliza con un git push. 
+
+4- Mia descarga su repositorio y le añade un archivo llamado NuevoDato.txt.
+
+5- Matias e Ignacio usan los mismos comandos para actualizar sus forks al estado en el que lo tiene Mia, usan el comando "git remote add upstream" con el link del repositorio de Mia, "git fetch upstream" para descargas los contenidos del upstream que seria el repositorio original, despues usan "git pull upstream main" para integrarlos por ultimo git push origin main para que queden sincronizados.
