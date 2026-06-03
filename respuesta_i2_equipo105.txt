@@ -5,9 +5,11 @@ Poltarak Ignacio
 a-¿Cómo actualizo mi repositorio, al estado que esté el repo que hice FORK?
 para actualizar mi repositorio es sincronizar desde GitHub el fork con el repositorio original y luego en git hacer un clone para que tengas el repositorio local actualizado
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
-Si, se puede pero tiene que estar actualizado el fork de ALFA y ahí cuando GAMMA haga un fork del fork de ALFA va a tener una copia del repositorio original.
+si, alfa puede actualizar su fork al estado del fork de gamma, pero debe agregar el fork de gamma como repositorio remoto y actualizarlo
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+si, gamma puede actualizar su fork al estado del fork de alfa, pero debe agregar el fork de gamma como repositorio remoto y actualizarlo
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
+No, los datos que tenia en mi repositorio no se pierden al actualizar el fork 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
